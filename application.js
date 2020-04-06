@@ -20,7 +20,7 @@ var updateTotalPrice = function () {
     subTotal.push(subT);
   });
 
-  var overallTotalValue = subT.reduce(sum);
+  var overallTotalValue = subTotal.reduce(sum);
   $('#totalValue').html(overallTotalValue);
 }
 
